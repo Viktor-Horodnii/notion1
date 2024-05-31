@@ -126,8 +126,10 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 7)
-        greet = 'Доброго ранку, Тигрику!';
-    else if (hrs >= 7 && hrs <= 17)
+        greet = 'Скоро ранок, Тигрику!';
+    else if (hrs >= 7 && hrs <= 12)
+        greet = 'Гарного дня, Тигрику!';
+    else if (hrs >= 12 && hrs <= 17)
         greet = 'Гарного дня, Тигрику!';
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Приємного вечора, Тигрику!';
