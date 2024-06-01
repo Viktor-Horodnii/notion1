@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -148,7 +147,35 @@ body {
 .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
 
 </style>
-<style>.HiddenByLaitis{opacity:0 !important; display: none !important; pointer-events: none !important;} .ShownByLaitis, .HiddenByLaitis{margin: 0 !important; padding: 0 !important; width:auto !important; height: auto !important;}</style></head>
+<style>.HiddenByLaitis{opacity:0 !important; display: none !important; pointer-events: none !important;} .ShownByLaitis, .HiddenByLaitis{margin: 0 !important; padding: 0 !important; width:auto !important; height: auto !important;}</style>
+
+
+
+    <style>
+        .hidden {
+  opacity: 0;
+}
+
+header {
+  transition: all 5s ease;
+}
+    </style>
+        <script src="/scripts/snippet-javascript-console.min.js?v=1"></script><style type="text/css">.as-console-wrapper { position: fixed; bottom: 0; left: 0; right: 0; max-height: 150px; overflow-y: scroll; overflow-x: hidden; border-top: 1px solid #000; display: none; }
+.as-console { background: #e9e9e9; border: 1px solid #ccc; display: table; width: 100%; border-collapse: collapse; }
+.as-console-row { display: table-row; font-family: monospace; font-size: 13px; }
+.as-console-row:after { display: table-cell; padding: 3px 6px; color: rgba(0,0,0,.35); border: 1px solid #ccc; content: attr(data-date); vertical-align: top; }
+.as-console-row + .as-console-row > * { border: 1px solid #ccc; }
+.as-console-row-code { width: 100%; white-space: pre-wrap; padding: 3px 5px; display: table-cell; font-family: monospace; font-size: 13px; vertical-align: middle; }
+.as-console-error:before { content: 'Error: '; color: #f00; }
+.as-console-assert:before { content: 'Assertion failed: '; color: #f00; }
+.as-console-info:before { content: 'Info: '; color: #00f; }
+.as-console-warning:before { content: 'Warning: '; color: #e90 }
+@-webkit-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@-moz-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@-ms-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+.as-console-row-code, .as-console-row:after { -webkit-animation: flash 1s; -moz-animation: flash 1s; -ms-animation: flash 1s; animation: flash 1s; }</style>
+</head>
 <body>
     
    
@@ -156,23 +183,33 @@ body {
 
 <div class="wrapper">
 
+<header class="">
+  <div><a href="#">Пункт 1</a></div>
+  <div><a href="#">Пункт 2</a></div>
+  <div><a href="#">Пункт 3</a></div>
+  <div><a href="#">Пункт 4</a></div>
+  <div><a href="#">Пункт 5</a></div>
 
     <div class="counter col_third">
       <i class="fas fa-route fa-2x"></i>
-      <h2 class="timer count-title count-number" data-to="12" data-speed="1500"></h2><h2>МІСЯЦІВ</h2><p>ПРИЙОМУ ГОСТЕЙ на Airbnb</p>
+      <h2 class="timer count-title count-number" data-to="12" data-speed="1500">12</h2><h2>МІСЯЦІВ</h2><p>ПРИЙОМУ ГОСТЕЙ на Airbnb</p>
 	<p class="count-text ">02.06.23 - 02.06.24</p>
     
     </div>
-
+</header>
+<script type="text/javascript">
+        window.onload = () => document.querySelector('header').classList.remove('hidden');
+    </script>
+    <div class="as-console-wrapper"><div class="as-console"></div></div>
     <div class="counter col_third">
       <i class="fas fa-route fa-2x"></i>
-      <h2 class="timer count-title count-number" data-to="65" data-speed="1500"></h2><h2>НОЧЕЙ</h2><p>НОЧЕЙ</p>
+      <h2 class="timer count-title count-number" data-to="65" data-speed="1500">65</h2><h2>НОЧЕЙ</h2><p>НОЧЕЙ</p>
       <p class="count-text ">більше 2-х місяців</p>
     </div>
 
     <div class="counter col_third">
         <i class="fas fa-route fa-2x"></i>
-        <h2 class="timer count-title count-number" data-to="32" data-speed="1500"></h2><h2>ГОСТЯ</h2><p>ГОСТЯ</p>
+        <h2 class="timer count-title count-number" data-to="32" data-speed="1500">32</h2><h2>ГОСТЯ</h2><p>ГОСТЯ</p>
          <p class="count-text ">Continents</p>
       </div>
 
@@ -182,19 +219,19 @@ body {
 
     <div class="counter col_third">
       <i class="fas fa-route fa-2x"></i>
-      <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2><h2>ЄВРО</h2><p>гості зупинялись в помешканні</p>
+      <h2 class="timer count-title count-number" data-to="100" data-speed="1500">100</h2><h2>ЄВРО</h2><p>гості зупинялись в помешканні</p>
       <p class="count-text ">Cities</p>
     </div>
 
     <div class="counter col_third">
       <i class="fas fa-route fa-2x"></i>
-      <h2 class="timer count-title count-number" data-to="26" data-speed="1500"></h2><h2>БРОНЮВАНЬ</h2><p>БРОНЮВАНЬ</p>
+      <h2 class="timer count-title count-number" data-to="26" data-speed="1500">26</h2><h2>БРОНЮВАНЬ</h2><p>БРОНЮВАНЬ</p>
       <p class="count-text ">в 3-х кімнатах</p>
     </div>
 
     <div class="counter col_third">
         <i class="fa-solid fa-users"></i>
-        <h2 class="timer count-title count-number" data-to="3385" data-speed="1500"></h2><h2>€</h2><p>з них € 714,16 і $ 2882,71</p>
+        <h2 class="timer count-title count-number" data-to="3385" data-speed="1500">3,385</h2><h2>€</h2><p>з них € 714,16 і $ 2882,71</p>
          <p class="count-text ">з них € 714,16 і $ 2882,71</p>
       </div>
 
@@ -202,4 +239,5 @@ body {
 </div>
 
 
-<deepl-input-controller></deepl-input-controller></body></html>
+<deepl-input-controller></deepl-input-controller>
+</body></html>
